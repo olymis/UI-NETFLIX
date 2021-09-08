@@ -1,0 +1,110 @@
+* {
+ margin: 0;
+ padding: 0;
+}
+
+body {
+    font-family: sans-serif;
+    color: white;
+}
+
+main {
+    height: 638px;
+    background: url("../img/fundo.jpg") center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.header {
+    position: absolute;
+    z-index: 160;
+    width: 95%;
+    display: flex;
+    justify-content: space-between;
+    top: 20px;
+    left: 30px;
+}
+
+.header a {
+    background-color: #e50419;
+    font-family: sans-serif;
+    color: white;
+    text-align-last: center;
+    width: 80px;
+    border: none;
+    outline: none;
+    font-size: 18px;
+    align-self: flex-start;
+    padding: 8px 18px;
+    text-decoration: none;
+    border-radius: 4px;
+
+
+}
+
+.main-chield {
+    z-index: 1;
+    display: grid;
+    justify-items: center;
+}
+
+main h1 {
+    font-size: 50px;
+    max-width: 630px;
+}
+
+.pré {
+    font-size: 25px;
+    font-family: sans-serif;
+}
+
+.pós {
+    font-size: 19px;
+    font-family: sans-serif;
+    margin-top: 30px;
+    margin-bottom: 12px;
+}
+
+.Primeira {
+    width: 400px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 13px;
+    font-size: 18px; 
+    border: none;
+    outline: none;
+    background-color: white;
+}
+
+div button {
+    width: 200px;
+    position: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    top: 8px;
+    left: 220px;
+    font-family: sans-serif;
+    font-size: 18px;
+    color: white;
+    background: #e50419;
+    outline: none;
+    border: none;
+    padding: 13px;
+    cursor: pointer;
+
+}
+
+
+
+.gradient {
+    background: rgba(0,0 ,0 ,0.4); 
+    background-image: linear-gradient(to top; rgba (0,0 ,0 ,.8) 0, rgba(0 ,0 ,0 ,0) 60%, rgba(0 ,0 ,0 ,.8) 100%);
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+}
+
